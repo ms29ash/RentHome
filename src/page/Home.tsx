@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import Intro from "../components/Intro";
 import Properties from "../components/Properties";
 import Sell from "../components/Sell";
+import Testimonials from "../components/Testimonials";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Amunities />
       <Sell />
       <Blogs />
+      <Testimonials />
     </div>
   );
 };
